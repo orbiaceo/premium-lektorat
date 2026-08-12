@@ -33,7 +33,10 @@ damit jede spätere Sitzung ohne Gedächtnisverlust anschlussfähig ist.
 
 **Festgelegt:**
 - Domain www.premium-lektorat.de (Porkbun), Datenbank Supabase
-- GitHub: Entwicklung auf `dev`, Produktion auf `main` (geschützt)
+- Repository: `orbiaceo/premium-lektorat`
+- GitHub: Entwicklung auf `dev`, Produktion auf `main`
+- `dev` ist Standard-Branch — Schutz gegen versehentliche Commits
+  auf `main`
 - Vercel: `dev` → Preview, `main` → Produktion
 - Domain zeigt erst auf `main`, wenn die Seite vollständig ist
 - Alle sichtbaren Texte schreibt Cornelia selbst; wir liefern nur
@@ -52,3 +55,42 @@ damit jede spätere Sitzung ohne Gedächtnisverlust anschlussfähig ist.
   ersten Prototyp
 - `content/faq.json` noch nicht vorhanden — braucht Themenliste
   von Cornelia
+
+---
+
+## #002 — 2026-08-12 — Kontext-Anbindung geklärt
+
+**Was:** Das Repository `orbiaceo/premium-lektorat` ist als
+GitHub-Verbindung im Kontext des Claude-Projekts eingebunden.
+Charta, Ledger und Docs werden ausdrücklich **nicht** zusätzlich als
+Dokumente in den Projekt-Kontext hochgeladen.
+
+**Warum:** Zwei Kopien derselben Datei driften auseinander. Eine einzige
+Quelle ist der Kern des gesamten Setups — sonst liest Claude
+widersprüchliche Stände und vermischt sie unbemerkt.
+
+**Betrifft:** Projekt-Kontext, Arbeitsablauf
+
+**Status:** umgesetzt
+
+**Verfahren (verbindlich):**
+1. Änderung wird von Claude als fertiger Textblock geliefert
+2. Commit auf `dev`
+3. Im Claude-Projekt einmal **Sync** drücken
+
+Die GitHub-Verbindung aktualisiert sich nicht selbsttätig. Ohne Sync
+arbeitet Claude mit einem veralteten Stand.
+
+**Kontrollmechanismus:** Claude beginnt jede Antwort mit dem tatsächlich
+gelesenen Ledger-Stand. Weicht dieser vom letzten Commit ab, fehlt ein
+Sync — dann zuerst synchronisieren, dann weiterarbeiten.
+
+**Hinweis zur Umgebung:** Die GitHub-Verbindung steht in der Claude-App
+am Handy nicht zur Verfügung, nur im Browser. Struktur- und
+Kontextänderungen daher am Rechner vornehmen; die tägliche Arbeit am
+Handy bleibt davon unberührt.
+
+**Offen:**
+- Briefing als `docs/00-briefing.md` ins Repo aufnehmen, damit es
+  versioniert vorliegt und nicht nur als Projektbeschreibung existiert
+- G-01, G-02, G-03 aus #001 weiterhin offen
