@@ -1,6 +1,6 @@
 # CHARTA — CORNELIA | PREMIUM LEKTORAT
 
-**Version:** 1.1
+**Version:** 1.2
 **Stand:** 2026-08-12
 **Domain:** www.premium-lektorat.de
 
@@ -164,10 +164,15 @@ Redaktionsoberfläche ohne Umbau ergänzt werden kann.
 
 **Umgebung:**
 - Code: GitHub — Entwicklung auf `dev`, Produktion auf `main`
+- Repository in der Bauphase **öffentlich** (Ledger #004)
 - Deployment: Vercel — `dev` → Preview, `main` → Produktion
 - Domain: Porkbun
 - Datenbank / Formularrückläufe: Supabase
 - Domain zeigt erst auf `main`, wenn die Seite vollständig ist
+
+**Schlüsselregel (verbindlich, siehe Ledger #004):**
+Keine Zugangsdaten, API-Schlüssel oder Supabase-Credentials im Repo.
+Ausschließlich in den Umgebungsvariablen von Vercel.
 
 ---
 

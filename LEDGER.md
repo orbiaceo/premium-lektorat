@@ -139,3 +139,48 @@ Voraussetzung für Phase 2.
 - G-03 Übermittlung von Textproben (Datenschutz)
 - Phase 2 nicht beauftragt — vor Umsetzung neuer Ledger-Eintrag
 - `CHARTA.md` auf v1.1 anheben (G-02 dort als entschieden führen)
+
+---
+
+## #004 — 2026-08-12 — Direkter Repo-Zugriff statt Sync-Ritual
+
+**Was:** Das Repository bleibt bis zur Fertigstellung **öffentlich**.
+Claude liest `CHARTA.md`, `LEDGER.md` und `docs/` künftig direkt aus dem
+Branch `dev`. Das manuelle Drücken von „Sync" im Projekt-Kontext entfällt
+als Pflichtschritt.
+
+**Warum:** Der Sync ist ein manueller Schritt, der vergessen wird — dann
+arbeitet Claude unbemerkt mit einem veralteten Stand. Direktes Lesen
+liefert immer den tatsächlichen Stand von `dev`, ohne Zutun. Damit gilt
+die Einzige-Quelle-Regel aus #002 nicht nur auf dem Papier, sondern
+technisch.
+
+**Betrifft:** Arbeitsablauf, `CHARTA.md` §9
+
+**Status:** umgesetzt
+
+**Verfahren (ersetzt Schritt 3 aus #002):**
+1. Änderung wird von Claude als fertige Datei geliefert
+2. Commit auf `dev`
+3. — kein weiterer Schritt —
+
+**Verbindliche Folge — Schlüsselregel:**
+Weil das Repository öffentlich ist, dürfen **niemals** Zugangsdaten,
+API-Schlüssel oder Supabase-Credentials im Repo liegen. Sie gehören
+ausschließlich in die Umgebungsvariablen von Vercel. Diese Regel gilt
+unabhängig davon, ob das Repo später auf privat gestellt wird.
+
+**Rückfallebene:** Wird das Repo auf privat gestellt, entfällt der
+direkte Lesezugriff ersatzlos. Dann gilt wieder das Verfahren aus #002
+(Dokumente im Projekt-Kontext, Sync nach jedem Commit). Die Umstellung
+auf privat erfordert einen eigenen Ledger-Eintrag.
+
+**Bewertung des Risikos:** Öffentlich heißt, dass Charta, Ledger und
+später der Quelltext lesbar sind. Kundendaten sind nie betroffen — diese
+liegen in Supabase. In der Bauphase ist das vertretbar.
+
+**Offen:**
+- Vor dem Livegang entscheiden, ob das Repo auf privat gestellt wird
+- G-01 Platzierung des Fragen-Bereichs
+- G-03 Übermittlung von Textproben (Datenschutz)
+- Briefing als `docs/00-briefing.md` ins Repo aufnehmen
