@@ -93,4 +93,49 @@ Handy bleibt davon unberührt.
 **Offen:**
 - Briefing als `docs/00-briefing.md` ins Repo aufnehmen, damit es
   versioniert vorliegt und nicht nur als Projektbeschreibung existiert
-- G-01, G-02, G-03 aus #001 weiterhin offen
+- G-01, G-03 aus #001 weiterhin offen
+
+---
+
+## #003 — 2026-08-12 — G-02 entschieden: Inhaltspflege in zwei Phasen
+
+**Was:** G-02 ist entschieden. **Phase 1:** Alle Seiteninhalte liegen als
+Markdown- und JSON-Dateien im Repo. Kein eigener Admin-Bereich, kein CMS.
+Pflege erfolgt über den GitHub-Web-Editor oder durch die Entwicklung.
+**Phase 2** (später, nicht beauftragt): eine Redaktionsoberfläche unter
+`/admin` kann nachgerüstet werden.
+
+**Warum:** Cornelia kennt WordPress und arbeitet ungern mit Technik. Ein
+selbstgebauter Admin-Bereich bedeutet jedoch Anmeldung, Sitzungs- und
+Rechteverwaltung, Passwort-Rücksetzung und dauerhafte Wartung — auf einer
+Website, deren Markenkern Diskretion ist, ist das eine Angriffsfläche mit
+Pflegeaufwand. Vor der ersten fertigen Seite ist dieser Aufwand nicht
+gerechtfertigt.
+
+Entscheidend ist nicht das Werkzeug, sondern die Trennung: Solange
+Inhalte in Dateien und nicht im Code stehen, lässt sich jede
+Redaktionsoberfläche später ohne Umbau ergänzen. Genau das sichert
+diese Entscheidung.
+
+**Betrifft:** `CHARTA.md` (§9, §11 G-02), `content/`, gesamte
+Code-Architektur
+
+**Status:** entschieden
+
+**Verbindliche Folge — Trennungsregel:**
+Kein sichtbarer Text steht im Code. Alle Seiteninhalte liegen unter
+`content/` als Markdown oder JSON. Der Code liest Inhalte, er enthält sie
+nicht. Diese Regel gilt ab dem ersten Commit und ist die technische
+Voraussetzung für Phase 2.
+
+**Ergänzend festgelegt:**
+- Supabase ist ausschließlich für Formularrückläufe zuständig,
+  nicht für Seiteninhalte
+- Die Wahl des CMS für Phase 2 wird bewusst offengelassen; sie wird
+  erst getroffen, wenn Phase 2 beauftragt wird
+
+**Offen:**
+- G-01 Platzierung des Fragen-Bereichs
+- G-03 Übermittlung von Textproben (Datenschutz)
+- Phase 2 nicht beauftragt — vor Umsetzung neuer Ledger-Eintrag
+- `CHARTA.md` auf v1.1 anheben (G-02 dort als entschieden führen)
