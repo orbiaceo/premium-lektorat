@@ -60,23 +60,19 @@ header { padding: 1.6rem 0 0; }
 .bar { display: block; }
 .bar nav { margin-top: 1rem; }
 .mark {
-  font-family: var(--serif); font-size: .9375rem; font-weight: 400;
-  letter-spacing: .2em; text-transform: uppercase; margin: 0; line-height: 1.4;
+  font-family: var(--serif); font-weight: 400; text-transform: uppercase;
+  margin: 0; line-height: 1.25; color: var(--ink);
 }
 .mark i { font-style: normal; color: var(--brass); padding: 0 .3em; }
-.mark-zusatz { white-space: nowrap; }
-@media (max-width: 560px) {
-  .mark { font-size: .8125rem; letter-spacing: .18em; }
+.mark-name { font-size: clamp(1.15rem, 5.6vw, 1.5rem); letter-spacing: .17em; }
+.mark-zusatz { font-size: clamp(.95rem, 4.4vw, 1.2rem); letter-spacing: .17em; white-space: nowrap; }
+@media (max-width: 620px) {
   .mark i { display: none; }
-  .mark-zusatz { display: block; font-size: .75rem; letter-spacing: .22em; color: var(--ink-2); margin-top: .15rem; }
+  .mark-name { display: block; }
+  .mark-zusatz { display: block; margin-top: .2rem; color: var(--ink-2); }
 }
-nav {
-  display: flex; gap: .4rem 1.25rem; flex-wrap: nowrap;
-  overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
-}
-nav::-webkit-scrollbar { display: none; }
+nav { display: flex; flex-wrap: wrap; gap: .55rem 1.15rem; }
 nav a { white-space: nowrap; }
-@media (max-width: 560px) { nav { gap: 1.05rem; } }
 nav a {
   font-family: var(--grot); font-size: .875rem; color: var(--ink-2);
   text-decoration: none; padding: .2rem 0; border-bottom: 1.5px solid transparent;
