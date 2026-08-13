@@ -31,10 +31,10 @@
     {
       "titel": "4. Kontaktformular",
       "zeilen": [
-        "Wenn Sie mir über das Formular eine Anfrage senden, verarbeite ich die von Ihnen angegebenen Daten: Name, E-Mail-Adresse und Ihre Nachricht.",
+        "Wenn Sie mir über das Formular eine Anfrage senden, verarbeite ich die von Ihnen angegebenen Daten: Name, E-Mail-Adresse, Angaben zu Fachgebiet und Umfang sowie Ihre Nachricht.",
         "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, da die Verarbeitung der Durchführung vorvertraglicher Maßnahmen dient.",
-        "Ihre Anfrage wird in einer Datenbank des Anbieters Supabase Inc., 970 Toa Payoh North, Singapur, gespeichert. Der Serverstandort liegt in der Europäischen Union. Mit Supabase besteht ein Auftragsverarbeitungsvertrag.",
-        "Ihre Angaben werden gelöscht, sobald die Anfrage abschließend bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen, spätestens jedoch nach 24 Monaten."
+        "Für den Versand dieser Anfrage als E-Mail nutze ich den Dienst Resend, Inc., 2261 Market Street, San Francisco, CA 94114, USA. Dabei werden die von Ihnen eingegebenen Daten übermittelt. Die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln.",
+        "Ihre Anfrage wird anschließend in meinem E-Mail-Postfach gespeichert. Die Daten werden gelöscht, sobald die Anfrage abschließend bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen."
       ]
     },
     {
