@@ -14,7 +14,9 @@ export default function Home() {
       <header>
         <div className="wrap bar">
           <p className="mark">
-            {c.marke.name} <i>|</i> {c.marke.zusatz}
+            <span className="mark-name">{c.marke.name}</span>
+            <i>|</i>
+            <span className="mark-zusatz">{c.marke.zusatz}</span>
           </p>
           <nav>
             {c.navigation.map((n) => (
