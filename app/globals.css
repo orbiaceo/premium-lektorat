@@ -56,7 +56,8 @@ p { margin: 0 0 1.15rem; color: var(--ink-2); }
 
 /* Kopf */
 header { padding: 2.5rem 0 0; }
-.bar { display: flex; align-items: baseline; justify-content: space-between; gap: 1.25rem; flex-wrap: wrap; }
+.bar { display: block; }
+.bar nav { margin-top: 1.1rem; }
 .mark {
   font-family: var(--serif); font-size: 1rem; font-weight: 400;
   letter-spacing: .21em; text-transform: uppercase; margin: 0;
