@@ -60,19 +60,14 @@ header { padding: 1.6rem 0 0; }
 .bar { display: block; }
 .bar nav { margin-top: 1rem; }
 .mark {
-  font-family: var(--serif); font-weight: 400; text-transform: uppercase;
-  margin: 0; line-height: 1.25; color: var(--ink);
+  font-family: var(--serif); font-weight: 400; margin: 0; line-height: 1.3;
+  color: var(--ink); white-space: nowrap;
+  font-size: clamp(1.05rem, 4.7vw, 1.4rem); letter-spacing: .04em;
 }
-.mark i { font-style: normal; color: var(--brass); padding: 0 .3em; }
-.mark-name { font-size: clamp(1.15rem, 5.6vw, 1.5rem); letter-spacing: .17em; }
-.mark-zusatz { font-size: clamp(.95rem, 4.4vw, 1.2rem); letter-spacing: .17em; white-space: nowrap; }
-@media (max-width: 620px) {
-  .mark i { display: none; }
-  .mark-name { display: block; }
-  .mark-zusatz { display: block; margin-top: .2rem; color: var(--ink-2); }
-}
-nav { display: flex; flex-wrap: wrap; gap: .55rem 1.15rem; }
-nav a { white-space: nowrap; }
+.mark i { font-style: normal; color: var(--brass); padding: 0 .25em; }
+
+nav { display: flex; flex-wrap: nowrap; gap: clamp(.5rem, 2.6vw, 1.25rem); }
+nav a { white-space: nowrap; font-size: clamp(.72rem, 3.1vw, .875rem); }
 nav a {
   font-family: var(--grot); font-size: .875rem; color: var(--ink-2);
   text-decoration: none; padding: .2rem 0; border-bottom: 1.5px solid transparent;
@@ -94,8 +89,8 @@ nav a:hover, nav a:focus-visible { color: var(--ink); border-bottom-color: var(-
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
 }
 .sticky .mini {
-  font-family: var(--serif); font-size: .8125rem; letter-spacing: .18em;
-  text-transform: uppercase; margin: 0; white-space: nowrap;
+  font-family: var(--serif); font-size: .875rem; letter-spacing: .04em;
+  margin: 0; white-space: nowrap;
 }
 .sticky .mini i { font-style: normal; color: var(--brass); padding: 0 .25em; }
 .sticky nav { gap: .2rem .95rem; overflow-x: auto; scrollbar-width: none; }
