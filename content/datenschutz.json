@@ -1,0 +1,73 @@
+{
+  "seo": {
+    "title": "Datenschutzerklärung | Cornelia Premium Lektorat",
+    "description": "Informationen zur Verarbeitung personenbezogener Daten nach DSGVO."
+  },
+  "titel": "Datenschutzerklärung",
+  "abschnitte": [
+    {
+      "titel": "1. Verantwortliche Stelle",
+      "zeilen": [
+        "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+        "Cornelia Scheffler",
+        "Tegernseer Landstraße 42, 81541 München",
+        "E-Mail: conny.elli.scheffler@gmail.com"
+      ]
+    },
+    {
+      "titel": "2. Grundsatz",
+      "zeilen": [
+        "Diese Website erhebt so wenige personenbezogene Daten wie möglich. Es werden keine Cookies zu Analyse- oder Werbezwecken gesetzt, es findet kein Tracking statt, und es sind keine Dienste sozialer Netzwerke eingebunden. Ein Cookie-Banner ist deshalb nicht erforderlich."
+      ]
+    },
+    {
+      "titel": "3. Aufruf der Website (Server-Logfiles)",
+      "zeilen": [
+        "Beim Aufruf dieser Website verarbeitet der Hosting-Anbieter technisch notwendige Zugriffsdaten: IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, übertragene Datenmenge, Browsertyp und Betriebssystem.",
+        "Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt im sicheren und störungsfreien Betrieb der Website. Diese Daten werden nicht mit anderen Datenquellen zusammengeführt.",
+        "Hosting-Anbieter ist die Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA. Mit Vercel besteht ein Auftragsverarbeitungsvertrag. Die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln."
+      ]
+    },
+    {
+      "titel": "4. Kontaktformular",
+      "zeilen": [
+        "Wenn Sie mir über das Formular eine Anfrage senden, verarbeite ich die von Ihnen angegebenen Daten: Name, E-Mail-Adresse und Ihre Nachricht.",
+        "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, da die Verarbeitung der Durchführung vorvertraglicher Maßnahmen dient.",
+        "Ihre Anfrage wird in einer Datenbank des Anbieters Supabase Inc., 970 Toa Payoh North, Singapur, gespeichert. Der Serverstandort liegt in der Europäischen Union. Mit Supabase besteht ein Auftragsverarbeitungsvertrag.",
+        "Ihre Angaben werden gelöscht, sobald die Anfrage abschließend bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen, spätestens jedoch nach 24 Monaten."
+      ]
+    },
+    {
+      "titel": "5. Vertraulichkeit von Manuskripten",
+      "zeilen": [
+        "Über dieses Formular werden keine Dateien übertragen. Textproben und Manuskripte werden erst nach persönlicher Absprache auf einem gesonderten Weg übermittelt und ausschließlich zum Zweck der Bearbeitung verwendet. Sie werden nicht an Dritte weitergegeben und auf Wunsch nach Abschluss gelöscht."
+      ]
+    },
+    {
+      "titel": "6. Schriftarten",
+      "zeilen": [
+        "Diese Website verwendet ausschließlich Schriftarten, die bereits auf Ihrem Gerät vorhanden sind. Es werden keine Schriften von externen Servern nachgeladen; eine Übermittlung Ihrer IP-Adresse an Dritte findet dadurch nicht statt."
+      ]
+    },
+    {
+      "titel": "7. Ihre Rechte",
+      "zeilen": [
+        "Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21).",
+        "Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen.",
+        "Zudem steht Ihnen ein Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde zu, in der Regel bei der Behörde Ihres Wohnsitzes oder des Sitzes der verantwortlichen Stelle."
+      ]
+    },
+    {
+      "titel": "8. Verschlüsselung",
+      "zeilen": [
+        "Diese Website wird ausschließlich über eine verschlüsselte Verbindung (HTTPS) ausgeliefert. Die von Ihnen übermittelten Daten sind während der Übertragung gegen Mitlesen durch Dritte geschützt."
+      ]
+    },
+    {
+      "titel": "9. Stand",
+      "zeilen": [
+        "Diese Datenschutzerklärung hat den Stand August 2026 und wird bei Änderungen der Website angepasst."
+      ]
+    }
+  ]
+}
