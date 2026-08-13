@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "Cornelia | Premium Lektorat für wissenschaftliche Texte",
+    "description": "Persönliches Lektorat und Redaktion für Dissertationen, Masterarbeiten, Fachartikel und Sachbücher. Verstehen. Präzisieren. Veredeln.",
+    "keywords": "Lektorat, wissenschaftliches Lektorat, Dissertation, Masterarbeit, Korrektorat, Fachbuch"
+  },
+  "marke": {
+    "name": "Cornelia",
+    "zusatz": "Premium Lektorat",
+    "kurz": "Cornelia | Lektorat"
+  },
+  "navigation": [
+    { "label": "Leistungen", "href": "#leistungen" },
+    { "label": "Für wen", "href": "#fuerwen" },
+    { "label": "Über mich", "href": "#ueber" },
+    { "label": "Fragen", "href": "#fragen" },
+    { "label": "Kontakt", "href": "#anfrage" }
+  ],
+  "hero": {
+    "claimVor": "Ein guter wissenschaftlicher Text ist ",
+    "claimHervor": "mehr",
+    "claimNach": " als ein fehlerfreier Text.",
+    "leitidee": "Verstehen · Präzisieren · Veredeln",
+    "intro": "Ich lektoriere wissenschaftliche Arbeiten, Fachartikel und Sachbücher — Texte, in denen viel Denkarbeit steckt und deren Gegenstand anspruchsvoll ist. Meine Aufgabe ist es, Ihren Gedanken die klarste Form zu geben, ohne sie zu verändern. Ich nehme wenige Projekte gleichzeitig an; jedes bekommt die Zeit, die es braucht."
+  },
+  "leistungen": {
+    "eyebrow": "Leistungen",
+    "titel": "Lektorat und Redaktion",
+    "punkte": [
+      {
+        "titel": "Lektorat",
+        "text": "Rechtschreibung, Grammatik und Zeichensetzung sind die Grundlage, nicht das Ziel. Ich arbeite an Satzbau, Begriffskonsistenz und sprachlicher Genauigkeit, bis jeder Satz genau das sagt, was er sagen soll."
+      },
+      {
+        "titel": "Redaktion",
+        "text": "Verständlich wird ein Text durch seinen Aufbau. Ich prüfe Gliederung, Argumentationslinie und Übergänge und sage Ihnen, an welcher Stelle der Leser den Faden verliert — mit einem Vorschlag, wie es sich lösen lässt."
+      }
+    ],
+    "textarten": [
+      "Masterarbeiten",
+      "Dissertationen",
+      "Publikationen",
+      "Fachartikel",
+      "Fach- und Sachbücher",
+      "Monografien"
+    ]
+  },
+  "fuerwen": {
+    "eyebrow": "Für wen",
+    "titel": "Wer mit mir arbeitet",
+    "gruppen": [
+      {
+        "titel": "Masterstudenten und Doktoranden",
+        "text": "Am Ende einer langen Arbeitszeit soll die Sprache nicht im Weg stehen. Ich sorge dafür, dass Ihre Leistung sichtbar bleibt."
+      },
+      {
+        "titel": "Wissenschaftler und Hochschullehrer",
+        "text": "Publikationen und Fachartikel, die einer fachkundigen Prüfung standhalten müssen und trotzdem gern gelesen werden sollen."
+      },
+      {
+        "titel": "Autoren von Fach- und Sachbüchern",
+        "text": "Ein Buchmanuskript braucht einen zweiten Blick, der über Hunderte Seiten den roten Faden mitliest, ohne die Handschrift zu glätten."
+      },
+      {
+        "titel": "Experten und Führungskräfte",
+        "text": "Studien, Positionspapiere, Vorträge: Texte, an denen Ihr fachlicher Ruf hängt und für die selten genug Zeit bleibt."
+      }
+    ]
+  },
+  "ueber": {
+    "eyebrow": "Über mich",
+    "titel": "Ich lese, bis ich es verstanden habe.",
+    "bild": "/cornelia.jpg",
+    "bildunterschrift": "Cornelia",
+    "absaetze": [
+      "Wer einen Fachtext nur an der Oberfläche korrigiert, macht ihn glatt, aber nicht klar. Deshalb lese ich mich in Ihren Gegenstand ein, bevor ich den ersten Satz anfasse. Erst wenn ich verstanden habe, was Sie sagen wollen, kann ich beurteilen, ob der Satz es auch sagt.",
+      "Was mich an dieser Arbeit hält, ist ein bestimmter Moment: wenn ein komplizierter Gedanke plötzlich klar dasteht — und ihm nichts fehlt. Ihre Stimme bleibt dabei Ihre. Ich schreibe Ihren Text nicht um, ich schärfe ihn."
+    ],
+    "signatur": "— Cornelia"
+  },
+  "fragen": {
+    "eyebrow": "Fragen",
+    "begruessung": "Vieles lässt sich vorab klären. Ich habe die Fragen zusammengestellt, die mir am häufigsten gestellt werden. Wählen Sie ein Thema.",
+    "hinweis": "Jedes Thema führt zu Unterthemen und ausführlichen Antworten."
+  },
+  "anfrage": {
+    "eyebrow": "Anfrage",
+    "titel": "Schreiben Sie mir von Ihrem Text.",
+    "text": "Fachgebiet, ungefährer Umfang, Ihr Zeitrahmen — mehr brauche ich für den Anfang nicht. Ich sehe mir eine Probe an und melde mich mit einer ehrlichen Einschätzung. Passt es für beide Seiten, sprechen wir in Ruhe persönlich.",
+    "button": "Anfrage senden",
+    "hinweis": "Jedes Angebot entsteht nach Sichtung des Textes. Keine Pauschalen, keine Preisliste."
+  },
+  "fuss": {
+    "links": [
+      { "label": "Impressum", "href": "/impressum" },
+      { "label": "Datenschutz", "href": "/datenschutz" },
+      { "label": "Kontakt", "href": "#anfrage" }
+    ],
+    "zeile": "Cornelia | Premium Lektorat"
+  }
+}

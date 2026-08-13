@@ -1,0 +1,62 @@
+{
+  "themen": [
+    {
+      "id": "ablauf",
+      "titel": "Ablauf einer Zusammenarbeit",
+      "unterzeile": "Von der Anfrage bis zur Rückgabe",
+      "unterthemen": [
+        {
+          "id": "ablauf-start",
+          "frage": "Wie beginnt eine Zusammenarbeit?",
+          "antwort": "Sie schreiben mir kurz, worum es geht: Fachgebiet, ungefährer Umfang, Ihr Zeitrahmen. Ich sehe mir eine Probe von wenigen Seiten an und melde mich mit einer Einschätzung und einem Angebot."
+        },
+        {
+          "id": "ablauf-rueckgabe",
+          "frage": "In welcher Form bekomme ich den Text zurück?",
+          "antwort": "Als Word-Datei mit nachvollziehbaren Änderungen und Kommentaren. Sie sehen jede Korrektur und entscheiden selbst, was Sie übernehmen."
+        }
+      ]
+    },
+    {
+      "id": "umfang",
+      "titel": "Umfang der Bearbeitung",
+      "unterzeile": "Was ich ändere — und was nicht",
+      "unterthemen": [
+        {
+          "id": "umfang-inhalt",
+          "frage": "Ändern Sie inhaltliche Aussagen?",
+          "antwort": "Nein. Ihre Argumente und Ergebnisse bleiben unangetastet. Wenn mir eine Stelle unklar oder widersprüchlich erscheint, weise ich Sie im Kommentar darauf hin."
+        },
+        {
+          "id": "umfang-stil",
+          "frage": "Bleibt mein persönlicher Stil erhalten?",
+          "antwort": "Ja. Ich glätte nicht, ich schärfe. Ihre Sprache soll nach Ihnen klingen, nur genauer."
+        }
+      ]
+    },
+    {
+      "id": "zeit",
+      "titel": "Zeit und Termine",
+      "unterzeile": "Vorlauf, Dauer, Absprachen",
+      "unterthemen": [
+        {
+          "id": "zeit-vorlauf",
+          "frage": "Wie viel Vorlauf brauchen Sie?",
+          "antwort": "Das hängt vom Umfang ab. Für eine Abschlussarbeit sind zwei bis drei Wochen ein guter Richtwert. Fragen Sie früh an, dann halte ich Ihnen einen Zeitraum frei."
+        }
+      ]
+    },
+    {
+      "id": "vertraulichkeit",
+      "titel": "Vertraulichkeit",
+      "unterzeile": "Umgang mit Ihrem Manuskript",
+      "unterthemen": [
+        {
+          "id": "vertraulichkeit-daten",
+          "frage": "Wie gehen Sie mit meinem Text um?",
+          "antwort": "Ihr Manuskript wird ausschließlich von mir gelesen, nicht weitergegeben und nach Abschluss auf Wunsch gelöscht. Eine Vertraulichkeitserklärung unterschreibe ich gern."
+        }
+      ]
+    }
+  ]
+}
