@@ -206,3 +206,22 @@ footer a { font-size: .8125rem; }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* Formular */
+.formular { display: grid; gap: 1.25rem; margin-top: 2rem; max-width: 30rem; }
+.formular label {
+  display: grid; gap: .4rem;
+  font-family: var(--grot); font-size: .875rem; color: var(--ink-2);
+}
+.formular input, .formular textarea {
+  font-family: var(--grot); font-size: 1rem; color: var(--ink);
+  background: #FFFFFF; border: 1px solid var(--line); border-radius: var(--radius);
+  padding: .75rem .85rem; width: 100%;
+}
+.formular input:focus, .formular textarea:focus {
+  outline: 2px solid var(--brass); outline-offset: 1px; border-color: var(--brass);
+}
+.formular textarea { resize: vertical; min-height: 8rem; }
+.formular .button { justify-self: start; }
+.formular .button[disabled] { opacity: .6; cursor: default; }
+.fehler { color: #8A2A2A; font-family: var(--grot); font-size: .875rem; margin: 0; }

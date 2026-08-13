@@ -10,11 +10,26 @@
     "kurz": "Cornelia | Lektorat"
   },
   "navigation": [
-    { "label": "Leistungen", "href": "#leistungen" },
-    { "label": "Für wen", "href": "#fuerwen" },
-    { "label": "Über mich", "href": "#ueber" },
-    { "label": "Fragen", "href": "#fragen" },
-    { "label": "Kontakt", "href": "#anfrage" }
+    {
+      "label": "Leistungen",
+      "href": "#leistungen"
+    },
+    {
+      "label": "Für wen",
+      "href": "#fuerwen"
+    },
+    {
+      "label": "Über mich",
+      "href": "#ueber"
+    },
+    {
+      "label": "Fragen",
+      "href": "#fragen"
+    },
+    {
+      "label": "Kontakt",
+      "href": "#anfrage"
+    }
   ],
   "hero": {
     "claimVor": "Ein guter wissenschaftlicher Text ist ",
@@ -92,9 +107,18 @@
   },
   "fuss": {
     "links": [
-      { "label": "Impressum", "href": "/impressum" },
-      { "label": "Datenschutz", "href": "/datenschutz" },
-      { "label": "Kontakt", "href": "#anfrage" }
+      {
+        "label": "Impressum",
+        "href": "/impressum"
+      },
+      {
+        "label": "Datenschutz",
+        "href": "/datenschutz"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/kontakt"
+      }
     ],
     "zeile": "Cornelia | Premium Lektorat"
   }

@@ -1,0 +1,12 @@
+{
+  "seo": {
+    "title": "Kontakt | Cornelia Premium Lektorat",
+    "description": "Anfrage für Lektorat und Redaktion wissenschaftlicher Texte. Persönliches Erstgespräch nach Sichtung Ihres Textes."
+  },
+  "titel": "Anfrage",
+  "einleitung": "Schreiben Sie mir kurz, worum es geht: Fachgebiet, ungefährer Umfang und Ihr Zeitrahmen. Ich melde mich mit einer Einschätzung und schlage ein persönliches Gespräch vor.",
+  "button": "Anfrage senden",
+  "danke": "Vielen Dank. Ihre Anfrage ist bei mir eingegangen. Ich melde mich in der Regel innerhalb von zwei Werktagen.",
+  "fehler": "Das hat leider nicht funktioniert. Bitte versuchen Sie es später noch einmal.",
+  "hinweis": "Bitte senden Sie zunächst keine Dateien. Textproben besprechen wir nach dem Erstkontakt auf gesichertem Weg. Es gilt meine Datenschutzerklärung."
+}
